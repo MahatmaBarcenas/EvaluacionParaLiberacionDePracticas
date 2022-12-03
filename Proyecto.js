@@ -11,7 +11,7 @@ const BajaDePeso = persona =>  persona.peso = persona.peso - 0.2;
 
 function imprimirDatos(persona) {
     console.log(`Al inico del año ${persona.nombre} ${persona.apellido} pesaba ${persona.peso} kg`);
-    //console.log(Math.random()); ----> Esta instruccion la tenia de prueba, para comprobar que los numeros aleatorios funcionaban bien.
+   
 
    const Adelgazar = 0.5;
 
